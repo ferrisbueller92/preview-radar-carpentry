@@ -1,0 +1,52 @@
+/* RADAR Carpentry — design tokens
+   Navy-dominant (Kyle's brief) + crisp white + forest-green accent (from their logo) + warm timber.
+   Type: Sora (display, geometric — echoes the logo) · Inter (body) · Space Mono (precision labels). */
+:root{
+  /* navy */
+  --navy:#0E1C30;
+  --navy-900:#0A1623;
+  --navy-800:#122844;
+  --navy-700:#1B3656;
+  --navy-600:#274767;
+  --navy-line:rgba(244,241,234,.14);
+
+  /* light */
+  --paper:#FFFFFF;
+  --bone:#F4F1EA;
+  --bone-2:#EBE6DB;
+
+  /* forest green accent (their logo) */
+  --green:#2E8B5F;
+  --green-deep:#1F6446;
+  --green-ink:#1C4D38;
+  --green-mint:#7FB79A;       /* radar range-rings (lighter scope green) */
+
+  /* amber radar blip (their logo "return signal") */
+  --amber:#E2922E;
+  --amber-soft:#F0B968;
+
+  /* warm timber */
+  --timber:#C28E4F;
+  --timber-soft:#D9B488;
+
+  /* ink (on light) */
+  --ink:#13181D;
+  --ink-soft:#39414A;
+  --muted:#6B7480;
+  --line:rgba(19,24,29,.12);
+
+  /* on dark */
+  --on-dark:#F4F1EA;
+  --on-dark-soft:rgba(244,241,234,.74);
+  --on-dark-mute:rgba(244,241,234,.52);
+
+  --maxw:1240px;
+  --r:14px;
+  --r-lg:22px;
+  --shadow:0 18px 50px rgba(10,18,32,.18);
+  --shadow-card:0 26px 70px rgba(8,14,24,.42);
+
+  --f-display:"Fraunces","Georgia",serif;        /* high-contrast premium serif — chisel-cut, crafted */
+  --f-body:"Inter",system-ui,-apple-system,sans-serif;
+  --f-mono:"Space Mono","SFMono-Regular",ui-monospace,monospace;
+}
